@@ -86,4 +86,5 @@ h6{
 .sgup:hover{
 	transition: 0.5s;
 	transform: scale(0.95);
+	cursor: pointer;
 }
