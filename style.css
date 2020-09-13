@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-image: url("beach.jpg");
+	background-size: 100%;
+	
+	
+}
+.frm{
+	height: 400px;
+	width: 350px;
+	background-color: white;
+	margin: auto;
+	margin-top: 75px;
+	text-align: center;
+	border-radius: 30px;
+}
+.head{
+	padding-top: 40px;
+}
+h6{
+	color: grey;
+}
+.icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 10px;
+}
+.icon ul li i{
+	padding-left: 7px;
+	color: white;
+	transition: 0.5s;
+}
+.icon ul li:hover{
+	transform: scale(1.5);
+	transition: 0.5s;
+}
+.icon ul li{
+	height: 30px;
+    width: 90px;
+    background-color: red;
+    border-radius: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.item-1 {
+	background-color: #3B5998 !important;
+}
+.item-2 {
+	background-color: #00ACEE !important;
+
+}
+.line{ 
+   	border-bottom: 1px solid #c5c5c5;
+    margin: 19px 20px;
+    height: 1px;
+    display: block;
+} 
+.line span{
+	background: #fff;
+    color: black;
+    width: 33px;
+    position: absolute;
+    top: 214px;
+    border-radius: 20px;
+    right: 670px;
+    text-align: center;
+}
+.frm input{
+	height: 27px;
+    width: 310px;
+    border-radius: 15px;
+    margin-bottom: 17px;
+    padding-left: 5px;
+    border-color: ghostwhite;
+
+}
+.sgup{
+	background-color: #00BD2B ;
+	color: white;
+	transition: 0.5s;
+}
+.sgup:hover{
+	transition: 0.5s;
+	transform: scale(0.95);
+}
